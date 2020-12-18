@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/main.css">
+    <title>CALCULATE YOUR LOVE</title> <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main text-white pb-5 ">
+        <div class=" mt-5  border-top col-sm w-75 align-content-center mx-auto pt-5 shadow bg-white rounded">
+            <h3 class=" p-3 " style="font-family: Cocogoose;color: #ffffff;">LOVE ❤ CALCULATOR</h3>
+            <form id="sheetdb-form" action="https://sheetdb.io/api/v1/essquvf34iigg" method="post">
+                <div class="input">
+                    <div class="first_name">
+                        <div class="form">
+
+                            <div class="input">
+                                <div class=" text-uppercase h5 querry text-start ">your name</div>
+                                <input type="text" name=data[name] id="name" onfocus=mm() placeholder="enter your name"
+                                    required class=" w-75    input rounded-pill p-2 mb-2 ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="age">
+                        <div class="form">
+                            <div class="input  ">
+                                <div class=" text-uppercase h5 querry text-start ">your Age</div>
+                                <input name=data[age] type="number" id="name" required placeholder="your age"
+                                    onfocus=mm() class="w-75  input rounded-pill p-2 mb-2 ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="crush_name">
+                        <div class="form">
+                            <div class="input  ">
+                                <div class=" text-uppercase h5 querry text-start ">crush's name</div>
+                                <input type="text" name=data[crush_name] required placeholder="crush's name" id="name"
+                                    onfocus=mm() class=" w-75   input rounded-pill p-2 mb-2 ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="crush_age">
+                        <div class="form">
+                            <div class="input  ">
+                                <div class=" text-uppercase h5 querry text-start ">crush's Age</div>
+                                <input id="name" type="number" name=data[crush_age] placeholder="crush's age" required
+                                    onfocus=mm() class="mb-2 w-75  input rounded-pill p-2  ">
+                            </div>
+                        </div>
+                    </div>
+                    <button id="jjj" type="submit" class=" btn btn-danger w-75 text-center  m-4 mb-5 " onsubmit=kk()>CALCULATE</button>
+
+                </div>
+            </form>
+            <div id="ll" class="results align-content-center ">
+                <div class="percentage">
+                </div>
+                <div style="display: none;" class="percentage_pie_chart" id="circle">
+                    <h1 id="percentage"></h1>
+                    <div class="flex-wrapper">
+                        <div class="single-chart">
+                            <svg viewBox="0 0 36 36" class="circular-chart blue">
+                                <path class="circle-bg" d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <path class="circle" id="circlem" d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                <text id="ll" x="18" y="20.35" class="percentage">
+
+                                </text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fotter">
+        <div class="copyright"></div>
+    </div>
+    <!---
+        script 
+        --->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+    <script src="./assests/main.js"></script>
+
+</body>
+
+</html>

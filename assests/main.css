@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap");
+@font-face {
+    font-family: "Cocogoose";
+    src: url("Cocogoose.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+    background: #ff4136;
+    background: -moz-linear-gradient( 45deg, #ff4136 50%, #ff7376 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient( 45deg, #ff4136 50%, #ff7376 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient( 45deg, #ff4136 50%, #ff7376 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#87e0fd', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+html {
+    color: #ffffff;
+}
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 65, 54, 1), rgba(255, 115, 118, 1));
+}
+
+.mt-5 {
+    margin-top: 60px;
+    background: linear-gradient( 50deg, #ff4136 50%, #ff7376 100%);
+}
+
+.main {
+    padding-bottom: 1000px;
+}
+
+::placeholder {
+    color: #dc3545;
+    text-transform: uppercase;
+    font-family: var(--bs-font-monospace);
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.single-chart {
+    margin: 20px 0px;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 2s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 30 100;
+    }
+}
+
+.circular-chart.blue .circle {
+    stroke: #ff0000;
+}
+
+.percentage {
+    fill: #666;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+.querry {
+    margin-left: 13%;
+}
+
+input {
+    opacity: 0.5;
+    outline: none;
+    border: transparent;
+    border-radius: 25%;
+}
